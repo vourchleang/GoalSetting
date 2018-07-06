@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/ic_back"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/ic_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/ic_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search"
+            />
+        <item
+            android:id="@+id/ic_update"
+            android:icon="@drawable/ic_update"
+            android:title="Update"
+            />
+        <item
+            android:id="@+id/ic_view_success"
+            android:icon="@drawable/ic_view_success"
+            android:title="View All Success "
+            />
+    </group>
+</menu>
