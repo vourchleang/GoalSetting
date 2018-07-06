@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="200dp"
+        android:src="@drawable/img_goal"
+        android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/txtlogo"
+        android:layout_width="wrap_content"
+        android:text="My Goal Setting..."
+        android:textColor="#20324e"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtstart"
+        android:layout_width="wrap_content"
+        android:text="Start >>"
+        android:onClick="OnclickStart"
+        android:textColor="#ee2a24"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

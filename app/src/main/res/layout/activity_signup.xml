@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#4fc3ce"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:src="@drawable/img_goal"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="My Goal Setting..."
+            android:textColor="#20324e"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Create Your Account"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_background_round_nocolor"
+            android:text="Enter Your FirstName :"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_background_round_nocolor"
+            android:text="Enter Your LastName :"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:text="Enter Your Email :"
+            android:background="@drawable/ic_background_round_nocolor"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_background_round_nocolor"
+            android:text="Enter Your PassWord :"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnconfirm"
+            android:layout_width="200dp"
+            android:layout_marginTop="15dp"
+            android:text="Confirm"
+            android:background="@drawable/ic_background_round"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

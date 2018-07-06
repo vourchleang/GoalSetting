@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_tohave"
+        android:layout_width="wrap_content"
+        android:text="MyGoal Setting to Have : "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ed_tohave"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txt_tohave"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/txt_date1"
+        android:layout_width="wrap_content"
+        android:text="Start Date :"
+        android:layout_below="@id/ed_tohave"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/select_date1"
+        android:layout_width="250dp"
+        android:textColor="#000"
+        android:background="@drawable/ic_background_round_nocolor"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt_date1"
+        android:layout_height="40dp">
+    </TextView>
+    <ImageView
+        android:id="@+id/icon_date1"
+        android:layout_width="50dp"
+        android:layout_below="@id/txt_date1"
+        android:src="@drawable/icon_date"
+        android:layout_toRightOf="@id/select_date1"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/txt_date2"
+        android:text="Finish Date :"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_below="@id/select_date1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/select_date2"
+        android:layout_width="250dp"
+        android:layout_below="@id/txt_date2"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@drawable/ic_background_round_nocolor"
+        android:textColor="#000"
+        android:layout_height="40dp" />
+    <ImageView
+        android:id="@+id/icon_date2"
+        android:layout_width="50dp"
+        android:src="@drawable/icon_date"
+        android:layout_below="@id/txt_date2"
+        android:layout_toRightOf="@id/select_date2"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="160dp"
+        android:background="@drawable/ic_background_round"
+        android:text="Save"
+        android:layout_below="@id/select_date2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:layout_height="60sp" />
+</RelativeLayout>
